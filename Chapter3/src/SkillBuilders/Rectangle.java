@@ -11,6 +11,7 @@ public class Rectangle {
 		int area;
 		int perimeter;
 		
+		
 		//Create Scanner object 
 		Scanner userinput = new Scanner(System.in);
 		
