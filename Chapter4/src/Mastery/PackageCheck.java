@@ -1,3 +1,18 @@
+/*
+Program: PackageCheck.java          October 9, 2026
+
+Purpose: A delivery service does not accept packages heavier than 27 kilograms or larger than 0.1 cubic meters
+(100,000 cubic centimeters). Create a PackageCheck application that prompts the user for the weight of
+a package and its dimensions (length, width, and height), and then displays an appropriate message
+if the package does not meet the requirements. Messages should include:
+
+
+Author: Denys K.
+School: CHHS
+Course: CSE 2140 2nd Language Programming
+ 
+*/
+
 package Mastery;
 
 import java.util.Scanner;
@@ -37,3 +52,14 @@ public class PackageCheck {
 		else System.out.print("Your package is accepted.");	
 	}
 }
+
+
+/*  Screen Dump
+
+Enter package weight in kilograms: 28
+Enter package length in centimeters: 55
+Enter package width in centimeters: 38
+Enter package height in centimeters: 65
+Too heavy and too large.
+
+*/
